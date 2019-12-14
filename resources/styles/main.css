@@ -1,0 +1,783 @@
+/* Common Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.buttonClass {
+  background: #0AC0C7;
+  color: #ffffff;
+}
+
+.teal{
+  color: #0AC0C7;
+}
+
+.underline {
+  width: 100px;
+  height: 3px;
+  margin: auto;
+  background: #0AC0C7;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+
+/* Header Styling */
+header {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  top: 0;
+  background: #222222;
+  position: fixed;
+  z-index: 1;
+}
+
+.navWrapper {
+  width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.siteLogo {
+  float: left;
+}
+
+.siteLogo a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 60px;
+}
+
+.siteLogo a:hover {
+  color: #0AC0C7;
+  text-decoration: none;
+}
+
+.navLinks {
+  float: right;
+  line-height: 60px;
+}
+
+.navLinks ul li {
+  display: inline;
+}
+
+.navLinks li a {
+  color: #ffffff;
+  margin-left: 12px;
+}
+
+.navLinks li a:hover {
+  text-decoration: none;
+  color: #0AC0C7;
+}
+
+.signup {
+  color: #0AC0C7 !important;
+  padding: 5px 20px;
+  margin-left: 10px !important;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.signup:hover {
+  text-decoration: none;
+  color: #ffffff !important;
+  background: #00000000;
+  border: 1px solid #ffffff;
+  padding: 4px 19px;
+}
+
+/* Hero Section Styling  */
+.hero {
+  width: 100%;
+  height: calc(100vh - 60px);
+  background: teal;
+  margin-top: 60px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/herobg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.heroContent {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.heroContent h1 {
+  text-align: center;
+  padding-top: 20%;
+  font-size: 60px;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.heroContent p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  color: #ffffff;
+}
+
+.callToAction {
+  width: 280px;
+  height: 100px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.callToAction ul {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.callToAction .enroll {
+  color: #ffffff;
+  background: #0AC0C7;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.courses {
+  background: #00000000 !important;
+  padding: 10px 30px !important;
+  border-radius: 10px;
+  border: 1.5px solid #0AC0C7;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.callToAction .enroll:hover {
+  text-decoration: none;
+  background: #00000000 !important;
+  padding: 8.5px 18.5px !important;
+  border-radius: 10px;
+  border: 1.5px solid #0AC0C7;
+  transition: ease-in-out 0.3s;
+}
+
+.courses:hover {
+  background: #0AC0C7 !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  transition: ease-in-out 0.3s;
+}
+
+/*  COURSES STYLING  */
+.coursesSection{
+  width: 1100px;
+  height: 800px;
+  margin: auto;
+}
+
+.coursesSection h4 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+  padding-top: 80px;
+}
+
+.coursesSection p{
+  font-size: 15px;
+}
+
+.coursesCard img{
+  margin-left: 14px;
+}
+
+.coursesCard{
+  width: 310px;
+  float: left;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.356);
+  border-radius: 8px;
+  margin-left: 35px;
+}
+
+/*  TEAM SECTION STYLING  */
+.teamSection{
+  width: 1100px;
+  height: 1060px;
+  margin: auto;
+}
+
+.teamSection h4{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+  padding-top: 80px;
+}
+
+.teamCard{
+  width: 255px;
+  height: 400px;
+  float: left;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.356);
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.teamCard img{
+  width: 255px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.teamCard h6{
+  font-size: 16px;
+  text-align: center;
+}
+.teamCard p{
+  font-size: 15px;
+  text-align: center;
+}
+
+
+/*  ABOUT STYLING  */
+.aboutSection {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.aboutSection h4 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+  color: #ffffff;
+  padding: 80px 0px;
+}
+
+.aboutSection p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.aboutPadding {
+  padding: 0px 150px;
+}
+
+/*  CONTACT SECTION STYLING  */
+.contact {
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/slmap.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contactWrapper {
+  width: 1100px;
+  height: 100%;
+  margin: auto;
+}
+
+.contactAddress {
+  position: relative;
+  width: 40%;
+  height: 80%;
+  float: left;
+  top: 50px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.contactAddress h4 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 400;
+  padding-top: 120px;
+  color: #f0f0f0;
+}
+
+.contactAddress ul li {
+  list-style: none;
+  color: #f0f0f0;
+  margin-left: 30px !important;
+}
+
+.contactForm {
+  position: relative;
+  width: 58%;
+  height: 80%;
+  float: left;
+  margin-left: 2%;
+  top: 50px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.contactForm .form {
+  position: relative;
+  width: 80%;
+  height: 90%;
+  margin: auto;
+  background: #ffffff;
+  top: 20px;
+  border-radius: 10px;
+}
+
+.contactForm .form form {
+  width: 90%;
+  margin: auto;
+}
+
+/*  FOOTER STYLING  */
+.footer {
+  width: 100%;
+  height: 60px;
+  background: #0d0d0d;
+}
+
+.copyrightWrapper {
+  width: 1100px;
+  height: 60px;
+  margin: 0 auto;
+  line-height: 60px;
+  overflow: hidden;
+}
+
+.copyright {
+  color: #ccc;
+  float: left;
+}
+
+.footerLinks {
+  color: #ccc;
+  float: right;
+}
+
+
+.footerLinks ul li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 20px;
+}
+
+.footerLinks ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footerLinks ul li a:hover {
+  color: #0AC0C7;
+}
+
+/* 
+LOGIN PAGE STYLING
+} */
+.loginWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  /* border: 2px solid #0AC0C7; */
+  border-radius: 10px;
+  padding-bottom: 30px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.356);
+}
+
+.loginForm {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+
+/*  TABLET STYLING  */
+@media only screen and (max-width: 768px) {
+
+    .navWrapper{
+      width: 90%;
+    }
+
+    /* Hero Section Styling  */
+    .heroContent {
+      width: 85%;
+    }
+    .siteLogo{
+      font-size: 20px;
+    }
+    .navLinks{
+      font-size: 14px;
+    }
+
+    .heroContent h1 {
+      padding-top: 40%;
+      font-size: 32px;
+      line-height: 1.5;
+
+    }
+
+    .heroContent p {
+      font-size: 16px;
+      padding: 0px 10px;
+    }
+
+    /*  COURSES STYLING  */
+    .coursesSection{
+      width: 88%;
+      height: 2100px;
+    }
+
+    .coursesSection p{
+      font-size: 14px;
+    }
+    .coursesCard img{
+      margin-left: 14px;
+      width: 400px;
+    }
+    .coursesCard{
+      width: 450px;
+      margin-top: 30px;
+      margin-left: 14%;
+    }
+
+    /*  ABOUT SECTION STYLING  */
+    .aboutSection p{
+      padding: 0px 30px;
+      text-align: justify;
+    }
+
+
+    /*  TEAM SECTION STYLING  */
+    .teamSection{
+      width: 90%;
+      height: 2000px;
+      margin-left: 50px;
+    }
+
+    .teamSection h4{
+      text-align: center;
+      font-size: 30px;
+      padding-top: 50px;
+    }
+
+    .teamCard{
+      width: 280px;
+      height: 430px;
+      display: block;
+      box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.356);
+      border-radius: 8px;
+      margin-top: 30px;
+      margin-left: 8px;
+    }
+
+    .teamCard img{
+      width: 280px;
+    }
+
+    .teamCard h5{
+      font-size: 25px;
+    }
+
+    .teamCard h6{
+      font-size: 16px;
+      text-align: center;
+    }
+    .teamCard p{
+      font-size: 14px;
+      padding-left: 5px;
+      padding-right: 10px;
+      text-align: center;
+    }
+
+  
+/*  CONTACT SECTION STYLING  */
+
+  .contactWrapper {
+    width: 90%;
+    height: 100%;
+    margin-left: 40px;
+  }
+
+  .contactAddress {
+    position: relative;
+    width: 35%;
+    height: 78%;
+    float: left;
+    top: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .contactAddress h4 {
+    font-size: 22px;
+    padding-top: 100px;
+  }
+
+  .contactAddress ul li {
+    margin-left: -30px !important;
+    font-size: 15px;
+  }
+
+  .contactForm {
+    width: 60%;
+    margin-left: 2%;
+    height: 78%;
+  }
+
+  .contactForm .form {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    background: #ffffff;
+    top: 20px;
+    border-radius: 10px;
+  }
+
+  .contactForm .form form {
+    width: 92%;
+    margin: auto;
+  }
+
+  /*  FOOTER STYLING  */
+  .copyrightWrapper {
+    width: 90%;
+    height: 60px;
+    margin: 0 auto;
+  }
+
+  .copyright p{
+    font-size: 14px;
+  }
+  .footerLinks ul li{
+    font-size: 16px;
+  }
+
+  .footerLinks{
+    display: none;
+  }
+
+  #enroll{
+    margin-top: 30px;
+  }
+
+}
+/*  MOBILE STYLING  */
+@media only screen and (max-width: 500px) {
+
+  /*  HEADER STYLING  */
+  header{
+    height: 100px;
+    position: absolute;
+  }
+  header .siteLogo{
+    margin-left: 135px;
+  }
+
+  .navWrapper{
+    margin-left: -10px;
+  }
+  
+  .navLinks {
+    line-height: 10px;
+  }
+  .navLinks ul li {
+    display: inline;
+  }
+
+  .navLinks li a {
+    margin-left: 4px;
+    font-size: 14px;
+  }
+
+  
+  /* Hero Section Styling  */
+  .heroContent {
+    width: 80%;
+  }
+   .heroContent h1 {
+    padding-top: 42%;
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  .heroContent p {
+    font-size: 14px;
+  }
+
+  /*  COURSES STYLING  */
+  .coursesSection{
+    width: 80%;
+    height: 1820px;
+  }
+
+  .coursesSection h4{
+    font-size: 30px;
+  }
+  .coursesCard{
+    width: 300px;
+    display: block;
+    margin-left: 7.5%;
+    margin-bottom: 30px;
+  }
+  .coursesSection p{
+    font-size: 14px;
+  }
+  .coursesCard img{
+    margin-left: 14px;
+    width: 250px;
+  }
+  
+
+/*  ABOUT STYLING  */
+  .aboutSection h4 {
+    font-size: 30px;
+  }
+
+  .aboutSection p {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  .aboutPadding {
+    padding: 0px 40px;
+  }
+
+  /*  TEAM SECTION STYLING  */
+
+  .teamSection{
+    width: 80%;
+    margin: auto;
+    height: 4340px;
+  }
+    
+  .teamSection h4{
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 30px;
+  }
+
+  .teamCard{
+    width: 320px;
+    height: 480px;
+    display: block;
+    margin-top: 30px;
+    margin-left: 5%;
+  }
+
+  .teamCard img{
+    width: 320px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  .teamCard h6{
+    font-size: 16px;
+    text-align: center;
+  }
+  .teamCard p{
+    font-size: 15px;
+    text-align: center;
+  }
+
+  
+/*  CONTACT SECTION STYLING  */
+.contact {
+  height: 750px;
+}
+.contactWrapper {
+  width: 80%;
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+
+.contactAddress {
+  width: 100%;
+}
+
+.contactAddress h4 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 400;
+  padding-top: 30px;
+}
+
+.contactAddress ul li {
+  list-style: none;
+  color: #f0f0f0;
+}
+
+.contactForm {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.contactForm .form {
+  width: 90%;
+  height: 90%;
+}
+
+.contactForm .form form {
+  width: 90%;
+  height: 75%;
+  margin: auto;
+}
+
+/*  FOOTER STYLING  */
+
+.copyrightWrapper {
+  width: 90%;
+}
+
+.copyright {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.footerLinks {
+  display: none;
+}
+
+/* 
+LOGIN PAGE STYLING
+} */
+.loginWrapper {
+  width: 80%;
+  margin-top: 50px;
+}
+
+.loginForm {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#enroll{
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+
+  
+}

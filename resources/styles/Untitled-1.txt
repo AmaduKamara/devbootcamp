@@ -1,0 +1,88 @@
+ <div class="teamImagesSec">
+
+        <div class="row mt-5">
+
+            <div class="col-md-3 text-center mr-3 mb-4 imageCard">
+              <img src="resources/images/team/rasheda.jpg" alt="Rashida">
+              <h5 class=" mt-2">Rashidatu Watta Kamara</h5>
+              <h6 class="lead">Software Developer</h6>
+              <p class="lead">rashidatukamara03@gmail.com</p>
+              <ul class="socialmedias">
+                <li><a href="#"><img src="resources/images/icons/facebook.png" width="30px" alt="Facebook"></a></li>
+                <li><a href="#"><img src="resources/images/icons/twitter.png" width="30px" alt="Twitter"></a></li>
+                <li><a href="#"><img src="resources/images/icons/linkedin.png" width="30px" alt="LinkedIn"></a></li>
+                <li><a href="#"><img src="resources/images/icons/instagram.png" width="30px" alt="Instagram"></a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-3 text-center mr-3 mb-4 imageCard">
+              <img src="resources/images/team/shabana.jpg" alt="Shabana">
+              <h5 class=" mt-2">Foday Shabana Serry</h5>
+              <h6 class="lead">Web Designer</h6>
+              <p class="lead">fodaysserry@gmail.com</p>
+              <ul class="socialmedias">
+                <li><a href="#"><img src="resources/images/icons/facebook.png" width="30px" alt="Facebook"></a></li>
+                <li><a href="#"><img src="resources/images/icons/twitter.png" width="30px" alt="Twitter"></a></li>
+                <li><a href="#"><img src="resources/images/icons/linkedin.png" width="30px" alt="LinkedIn"></a></li>
+                <li><a href="#"><img src="resources/images/icons/instagram.png" width="30px" alt="Instagram"></a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-3 text-center mr-3 mb-4 imageCard">
+              <img src="resources/images/team/tom.jpg" alt="Tom">
+              <h5 class=" mt-2">Tom Penyikie</h5>
+              <h6 class="lead">Programmer</h6>
+              <p class="lead">tompenyikie@gmail.com</p>
+              <ul class="socialmedias">
+                <li><a href="#"><img src="resources/images/icons/facebook.png" width="30px" alt="Facebook"></a></li>
+                <li><a href="#"><img src="resources/images/icons/twitter.png" width="30px" alt="Twitter"></a></li>
+                <li><a href="#"><img src="resources/images/icons/linkedin.png" width="30px" alt="LinkedIn"></a></li>
+                <li><a href="#"><img src="resources/images/icons/instagram.png" width="30px" alt="Instagram"></a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-3 text-center mr-3 mb-4 imageCard">
+              <img src="resources/images/team/osman.jpg" alt="Osman">
+              <h5 class=" mt-2">Osman Bah</h5>
+              <h6 class="lead">Mobile App Developer</h6>
+              <p class="lead">osmanbah2022@gmail.com</p>
+              <ul class="socialmedias">
+                <li><a href="#"><img src="resources/images/icons/facebook.png" width="30px" alt="Facebook"></a></li>
+                <li><a href="#"><img src="resources/images/icons/twitter.png" width="30px" alt="Twitter"></a></li>
+                <li><a href="#"><img src="resources/images/icons/linkedin.png" width="30px" alt="LinkedIn"></a></li>
+                <li><a href="#"><img src="resources/images/icons/instagram.png" width="30px" alt="Instagram"></a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-3 text-center mr-3 mb-4 imageCard">
+              <img src="resources/images/team/mohamed.jpg" alt="Mohamed">
+              <h5 class=" mt-2">Mohamed E Mansaray</h5>
+              <h6 class="lead">IT Consultant</h6>
+              <p class="lead">mohamedemansaray@gmail.com</p>
+              <ul class="socialmedias">
+                <li><a href="#"><img src="resources/images/icons/facebook.png" width="30px" alt="Facebook"></a></li>
+                <li><a href="#"><img src="resources/images/icons/twitter.png" width="30px" alt="Twitter"></a></li>
+                <li><a href="#"><img src="resources/images/icons/linkedin.png" width="30px" alt="LinkedIn"></a></li>
+                <li><a href="#"><img src="resources/images/icons/instagram.png" width="30px" alt="Instagram"></a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-3 text-center mr-3 mb-4 imageCard">
+              <img src="resources/images/team/mohamed.jpg" alt="Mohamed">
+              <h5 class=" mt-2">Osman Bah</h5>
+              <h6 class="lead">Mobile App Developer</h6>
+              <p class="lead">osmanbah2022@gmail.com</p>
+              <ul class="socialmedias">
+                <li><a href="#"><img src="resources/images/icons/facebook.png" width="30px" alt="Facebook"></a></li>
+                <li><a href="#"><img src="resources/images/icons/twitter.png" width="30px" alt="Twitter"></a></li>
+                <li><a href="#"><img src="resources/images/icons/linkedin.png" width="30px" alt="LinkedIn"></a></li>
+                <li><a href="#"><img src="resources/images/icons/instagram.png" width="30px" alt="Instagram"></a></li>
+              </ul>
+            </div>
+      
+          </div>
+
+          <form>
+              <label for="name">Full Name</label>
+              <input type="text" id="name" placeholder="Enter fullname">
+            </form>
